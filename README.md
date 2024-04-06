@@ -17,102 +17,75 @@ https://github.com/termcolor/termcolor
 
 # Colors:
 
-**_bklf:**
-        Black Text
 
-**_bk:**
-        Black Text
 
-**_b:**
-        Blue Text
 
-**_c:**
-        Cyan Text
 
-**_dg:**
-        Grey Text
+  - ```_bklf:```  *Black on Black + LF [chr(10)]*
 
-**_g:**
-        Green Text
+  - ```_bk:```  *Black Text*
 
-**_lb:**
-        Blue Text
+  - ```_b:```  *Blue Text*
 
-**_lc:**
-        Cyan Text
+  - ```_c:```  *Cyan Text*
 
-**_lg:**
-        Green Text
+  - ```_dg:```  *Grey Text*
 
-**_lgr:**
-        Grey Text
+  - ```_g:```  *Green Text*
 
-**_lm:**
-        Magenta Text
+  - ```_lb:```  *Blue Text*
 
-**_lr:**
-        Red Text
+  - ```_lc:```  *Cyan Text*
 
-**_ly:**
-        Yellow Text
+  - ```_lg:```  *Green Text*
 
-**_m:**
-        Magenta Text
+  - ```_lgr:```  *Grey Text*
 
-**_r:**
-        Red Text
+  - ```_lm:```  *Magenta Text*
 
-**_w:**
-        White Text
+  - ```_lr:```  *Red Text*
 
-**_y:**
-        Yellow Text
+  - ```_ly:```  *Yellow Text*
 
-**_``?``_obk:**
-        Black Background
+  - ```_m:```  *Magenta Text*
 
-**_``?``_or:**
-        Red Background
+  - ```_r:```  *Red Text*
 
-**_``?``_og:**
-        Green Background
+  - ```_w:```  *White Text*
 
-**_``?``_oy:**
-        Yellow Background
+  - ```_y:```  *Yellow Text*
 
-**_``?``_ob:**
-        Blue Background
+  - ```?```  =  ```bk```,```b```,```c```,```dg```,```g```,```lb```,```lc```,```lg```,```lgr```,```lm```,```lr```,```ly```,```m```,```r```,```w```,```y```
 
-**_``?``_om:**
-        Magenta Background
+  - ```_?_obk:```  *Black Background*
 
-**_``?``_oc:**
-        Cyan Background
+  - ```_?_or:```  *Red Background*
 
-**_``?``_ow:**
-        White Background
+  - ```_?_og:```  *Green Background*
 
-**_``?``_olgr:**
-        Grey Background
+  - ```_?_oy:```  *Yellow Background*
 
-**_``?``_odg:**
-        Grey Background
+  - ```_?_ob:```  *Blue Background*
 
-**_``?``_olr:**
-        Red Background
+  - ```_?_om:```  *Magenta Background*
 
-**_``?``_olg:**
-        Green Background
+  - ```_?_oc:```  *Cyan Background*
 
-**_``?``_oly:**
-        Yellow Background
+  - ```_?_ow:```  *White Background*
 
-**_``?``_olb:**
-        Blue Background
+  - ```_?_olgr:```  *Grey Background*
 
-**_``?``_olm:**
-        Magenta Background
+  - ```_?_odg:```  *Grey Background*
 
-**_``?``_olc:**
-        Cyan Background
+  - ```_?_olr:```  *Red Background*
+
+  - ```_?_olg:```  *Green Background*
+
+  - ```_?_oly:```  *Yellow Background*
+
+  - ```_?_olb:```  *Blue Background*
+
+  - ```_?_olm:```  *Magenta Background*
+
+  - ```_?_olc:```  *Cyan Background
 -----

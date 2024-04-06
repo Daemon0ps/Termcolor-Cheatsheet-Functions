@@ -1,4 +1,4 @@
-# Termcolor-Cheatsheet-Functions
+# Termcolor Shorthand Functions
 Termcolor Cheatsheet Functions. Shorthand functions for printing in color.
 All printing is done with `(,end='')` so `chr(10)` mult be appended or prepended.
 

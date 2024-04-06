@@ -13,77 +13,280 @@ https://github.com/termcolor/termcolor
 
 -----
 
-# Colors:
+## Colors:
+  - ```_bklf:```  ***Black on Black + LF/chr(10)***
 
-
-
-
-
-  - ```_bklf:```  ***Black on Black + LF [chr(10)]***
-
-  - ```_bk:```  ***Black Text***
-
-  - ```_b:```  ***Blue Text***
-
-  - ```_c:```  ***Cyan Text***
-
-  - ```_dg:```  ***Grey Text***
-
-  - ```_g:```  ***Green Text***
-
-  - ```_lb:```  ***Blue Text***
-
-  - ```_lc:```  ***Cyan Text***
-
-  - ```_lg:```  ***Green Text***
-
-  - ```_lgr:```  ***Grey Text***
-
-  - ```_lm:```  ***Magenta Text***
-
-  - ```_lr:```  ***Red Text***
-
-  - ```_ly:```  ***Yellow Text***
-
-  - ```_m:```  ***Magenta Text***
-
-  - ```_r:```  ***Red Text***
-
-  - ```_w:```  ***White Text***
-
-  - ```_y:```  ***Yellow Text***
-
-  - ```?```  =  ```bk```,```b```,```c```,```dg```,```g```,```lb```,```lc```,```lg```,```lgr```,```lm```,```lr```,```ly```,```m```,```r```,```w```,```y```
-
-  - ```_?_obk:```  ***Black Background***
-
-  - ```_?_or:```  ***Red Background***
-
-  - ```_?_og:```  ***Green Background***
-
-  - ```_?_oy:```  ***Yellow Background***
-
-  - ```_?_ob:```  ***Blue Background***
-
-  - ```_?_om:```  ***Magenta Background***
-
-  - ```_?_oc:```  ***Cyan Background***
-
-  - ```_?_ow:```  ***White Background***
-
-  - ```_?_olgr:```  ***Grey Background***
-
-  - ```_?_odg:```  ***Grey Background***
-
-  - ```_?_olr:```  ***Red Background***
-
-  - ```_?_olg:```  ***Green Background***
-
-  - ```_?_oly:```  ***Yellow Background***
-
-  - ```_?_olb:```  ***Blue Background***
-
-  - ```_?_olm:```  ***Magenta Background***
-
-  - ```_?_olc:```  ***Cyan Background
------
+|          TC_FUNC          |          COLORS          |
+| :------------------------ | :----------------------- |
+| ```_bk``` :   ***black Text***                                      | ![](./colors/black.png)
+| ```_b``` :   ***blue Text***                                        | ![](./colors/blue.png)
+| ```_c``` :   ***cyan Text***                                        | ![](./colors/cyan.png)
+| ```_dg``` :   ***dark_grey Text***                                  | ![](./colors/dark_grey.png)
+| ```_g``` :   ***green Text***                                       | ![](./colors/green.png)
+| ```_lb``` :   ***light_blue Text***                                 | ![](./colors/light_blue.png)
+| ```_lc``` :   ***light_cyan Text***                                 | ![](./colors/light_cyan.png)
+| ```_lg``` :   ***light_green Text***                                | ![](./colors/light_green.png)
+| ```_lgr``` :   ***light_grey Text***                                | ![](./colors/light_grey.png)
+| ```_lm``` :   ***light_magenta Text***                              | ![](./colors/light_magenta.png)
+| ```_lr``` :   ***light_red Text***                                  | ![](./colors/light_red.png)
+| ```_ly``` :   ***light_yellow Text***                               | ![](./colors/light_yellow.png)
+| ```_m``` :   ***magenta Text***                                     | ![](./colors/magenta.png)
+| ```_r``` :   ***red Text***                                         | ![](./colors/red.png)
+| ```_w``` :   ***white Text***                                       | ![](./colors/white.png)
+| ```_y``` :   ***yellow Text***                                      | ![](./colors/yellow.png)
+| ```__bk_obk``` :   ***black Text on black Background***             | ![](./colors/black---on_black.png)
+| ```__b_obk``` :   ***blue Text on black Background***               | ![](./colors/blue---on_black.png)
+| ```__c_obk``` :   ***cyan Text on black Background***               | ![](./colors/cyan---on_black.png)
+| ```__dg_obk``` :   ***dark_grey Text on black Background***         | ![](./colors/dark_grey---on_black.png)
+| ```__g_obk``` :   ***green Text on black Background***              | ![](./colors/green---on_black.png)
+| ```__lb_obk``` :   ***light_blue Text on black Background***        | ![](./colors/light_blue---on_black.png)
+| ```__lc_obk``` :   ***light_cyan Text on black Background***        | ![](./colors/light_cyan---on_black.png)
+| ```__lg_obk``` :   ***light_green Text on black Background***       | ![](./colors/light_green---on_black.png)
+| ```__lgr_obk``` :   ***light_grey Text on black Background***       | ![](./colors/light_grey---on_black.png)
+| ```__lm_obk``` :   ***light_magenta Text on black Background***     | ![](./colors/light_magenta---on_black.png)
+| ```__lr_obk``` :   ***light_red Text on black Background***         | ![](./colors/light_red---on_black.png)
+| ```__ly_obk``` :   ***light_yellow Text on black Background***      | ![](./colors/light_yellow---on_black.png)
+| ```__m_obk``` :   ***magenta Text on black Background***            | ![](./colors/magenta---on_black.png)
+| ```__r_obk``` :   ***red Text on black Background***                | ![](./colors/red---on_black.png)
+| ```__w_obk``` :   ***white Text on black Background***              | ![](./colors/white---on_black.png)
+| ```__y_obk``` :   ***yellow Text on black Background***             | ![](./colors/yellow---on_black.png)
+| ```__bk_ob``` :   ***black Text on blue Background***               | ![](./colors/black---on_blue.png)
+| ```__b_ob``` :   ***blue Text on blue Background***                 | ![](./colors/blue---on_blue.png)
+| ```__c_ob``` :   ***cyan Text on blue Background***                 | ![](./colors/cyan---on_blue.png)
+| ```__dg_ob``` :   ***dark_grey Text on blue Background***           | ![](./colors/dark_grey---on_blue.png)
+| ```__g_ob``` :   ***green Text on blue Background***                | ![](./colors/green---on_blue.png)
+| ```__lb_ob``` :   ***light_blue Text on blue Background***          | ![](./colors/light_blue---on_blue.png)
+| ```__lc_ob``` :   ***light_cyan Text on blue Background***          | ![](./colors/light_cyan---on_blue.png)
+| ```__lg_ob``` :   ***light_green Text on blue Background***         | ![](./colors/light_green---on_blue.png)
+| ```__lgr_ob``` :   ***light_grey Text on blue Background***         | ![](./colors/light_grey---on_blue.png)
+| ```__lm_ob``` :   ***light_magenta Text on blue Background***       | ![](./colors/light_magenta---on_blue.png)
+| ```__lr_ob``` :   ***light_red Text on blue Background***           | ![](./colors/light_red---on_blue.png)
+| ```__ly_ob``` :   ***light_yellow Text on blue Background***        | ![](./colors/light_yellow---on_blue.png)
+| ```__m_ob``` :   ***magenta Text on blue Background***              | ![](./colors/magenta---on_blue.png)
+| ```__r_ob``` :   ***red Text on blue Background***                  | ![](./colors/red---on_blue.png)
+| ```__w_ob``` :   ***white Text on blue Background***                | ![](./colors/white---on_blue.png)
+| ```__y_ob``` :   ***yellow Text on blue Background***               | ![](./colors/yellow---on_blue.png)
+| ```__bk_oc``` :   ***black Text on cyan Background***               | ![](./colors/black---on_cyan.png)
+| ```__b_oc``` :   ***blue Text on cyan Background***                 | ![](./colors/blue---on_cyan.png)
+| ```__c_oc``` :   ***cyan Text on cyan Background***                 | ![](./colors/cyan---on_cyan.png)
+| ```__dg_oc``` :   ***dark_grey Text on cyan Background***           | ![](./colors/dark_grey---on_cyan.png)
+| ```__g_oc``` :   ***green Text on cyan Background***                | ![](./colors/green---on_cyan.png)
+| ```__lb_oc``` :   ***light_blue Text on cyan Background***          | ![](./colors/light_blue---on_cyan.png)
+| ```__lc_oc``` :   ***light_cyan Text on cyan Background***          | ![](./colors/light_cyan---on_cyan.png)
+| ```__lg_oc``` :   ***light_green Text on cyan Background***         | ![](./colors/light_green---on_cyan.png)
+| ```__lgr_oc``` :   ***light_grey Text on cyan Background***         | ![](./colors/light_grey---on_cyan.png)
+| ```__lm_oc``` :   ***light_magenta Text on cyan Background***       | ![](./colors/light_magenta---on_cyan.png)
+| ```__lr_oc``` :   ***light_red Text on cyan Background***           | ![](./colors/light_red---on_cyan.png)
+| ```__ly_oc``` :   ***light_yellow Text on cyan Background***        | ![](./colors/light_yellow---on_cyan.png)
+| ```__m_oc``` :   ***magenta Text on cyan Background***              | ![](./colors/magenta---on_cyan.png)
+| ```__r_oc``` :   ***red Text on cyan Background***                  | ![](./colors/red---on_cyan.png)
+| ```__w_oc``` :   ***white Text on cyan Background***                | ![](./colors/white---on_cyan.png)
+| ```__y_oc``` :   ***yellow Text on cyan Background***               | ![](./colors/yellow---on_cyan.png)
+| ```__bk_odg``` :   ***black Text on dark_grey Background***         | ![](./colors/black---on_dark_grey.png)
+| ```__b_odg``` :   ***blue Text on dark_grey Background***           | ![](./colors/blue---on_dark_grey.png)
+| ```__c_odg``` :   ***cyan Text on dark_grey Background***           | ![](./colors/cyan---on_dark_grey.png)
+| ```__dg_odg``` :   ***dark_grey Text on dark_grey Background***     | ![](./colors/dark_grey---on_dark_grey.png)
+| ```__g_odg``` :   ***green Text on dark_grey Background***          | ![](./colors/green---on_dark_grey.png)
+| ```__lb_odg``` :   ***light_blue Text on dark_grey Background***    | ![](./colors/light_blue---on_dark_grey.png)
+| ```__lc_odg``` :   ***light_cyan Text on dark_grey Background***    | ![](./colors/light_cyan---on_dark_grey.png)
+| ```__lg_odg``` :   ***light_green Text on dark_grey Background***   | ![](./colors/light_green---on_dark_grey.png)
+| ```__lgr_odg``` :   ***light_grey Text on dark_grey Background***   | ![](./colors/light_grey---on_dark_grey.png)
+| ```__lm_odg``` :   ***light_magenta Text on dark_grey Background*** | ![](./colors/light_magenta---on_dark_grey.png)
+| ```__lr_odg``` :   ***light_red Text on dark_grey Background***     | ![](./colors/light_red---on_dark_grey.png)
+| ```__ly_odg``` :   ***light_yellow Text on dark_grey Background***  | ![](./colors/light_yellow---on_dark_grey.png)
+| ```__m_odg``` :   ***magenta Text on dark_grey Background***        | ![](./colors/magenta---on_dark_grey.png)
+| ```__r_odg``` :   ***red Text on dark_grey Background***            | ![](./colors/red---on_dark_grey.png)
+| ```__w_odg``` :   ***white Text on dark_grey Background***          | ![](./colors/white---on_dark_grey.png)
+| ```__y_odg``` :   ***yellow Text on dark_grey Background***         | ![](./colors/yellow---on_dark_grey.png)
+| ```__bk_og``` :   ***black Text on green Background***              | ![](./colors/black---on_green.png)
+| ```__b_og``` :   ***blue Text on green Background***                | ![](./colors/blue---on_green.png)
+| ```__c_og``` :   ***cyan Text on green Background***                | ![](./colors/cyan---on_green.png)
+| ```__dg_og``` :   ***dark_grey Text on green Background***          | ![](./colors/dark_grey---on_green.png)
+| ```__g_og``` :   ***green Text on green Background***               | ![](./colors/green---on_green.png)
+| ```__lb_og``` :   ***light_blue Text on green Background***         | ![](./colors/light_blue---on_green.png)
+| ```__lc_og``` :   ***light_cyan Text on green Background***         | ![](./colors/light_cyan---on_green.png)
+| ```__lg_og``` :   ***light_green Text on green Background***        | ![](./colors/light_green---on_green.png)
+| ```__lgr_og``` :   ***light_grey Text on green Background***        | ![](./colors/light_grey---on_green.png)
+| ```__lm_og``` :   ***light_magenta Text on green Background***      | ![](./colors/light_magenta---on_green.png)
+| ```__lr_og``` :   ***light_red Text on green Background***          | ![](./colors/light_red---on_green.png)
+| ```__ly_og``` :   ***light_yellow Text on green Background***       | ![](./colors/light_yellow---on_green.png)
+| ```__m_og``` :   ***magenta Text on green Background***             | ![](./colors/magenta---on_green.png)
+| ```__r_og``` :   ***red Text on green Background***                 | ![](./colors/red---on_green.png)
+| ```__w_og``` :   ***white Text on green Background***               | ![](./colors/white---on_green.png)
+| ```__y_og``` :   ***yellow Text on green Background***              | ![](./colors/yellow---on_green.png)
+| ```__bk_olb``` :   ***black Text on light_blue Background***        | ![](./colors/black---on_light_blue.png)
+| ```__b_olb``` :   ***blue Text on light_blue Background***          | ![](./colors/blue---on_light_blue.png)
+| ```__c_olb``` :   ***cyan Text on light_blue Background***          | ![](./colors/cyan---on_light_blue.png)
+| ```__dg_olb``` :   ***dark_grey Text on light_blue Background***    | ![](./colors/dark_grey---on_light_blue.png)
+| ```__g_olb``` :   ***green Text on light_blue Background***         | ![](./colors/green---on_light_blue.png)
+| ```__lb_olb``` :   ***light_blue Text on light_blue Background***   | ![](./colors/light_blue---on_light_blue.png)
+| ```__lc_olb``` :   ***light_cyan Text on light_blue Background***   | ![](./colors/light_cyan---on_light_blue.png)
+| ```__lg_olb``` :   ***light_green Text on light_blue Background***  | ![](./colors/light_green---on_light_blue.png)
+| ```__lgr_olb``` :   ***light_grey Text on light_blue Background***  | ![](./colors/light_grey---on_light_blue.png)
+| ```__lm_olb``` :   ***light_magenta Text on light_blue Background***| ![](./colors/light_magenta---on_light_blue.png)
+| ```__lr_olb``` :   ***light_red Text on light_blue Background***    | ![](./colors/light_red---on_light_blue.png)
+| ```__ly_olb``` :   ***light_yellow Text on light_blue Background*** | ![](./colors/light_yellow---on_light_blue.png)
+| ```__m_olb``` :   ***magenta Text on light_blue Background***       | ![](./colors/magenta---on_light_blue.png)
+| ```__r_olb``` :   ***red Text on light_blue Background***           | ![](./colors/red---on_light_blue.png)
+| ```__w_olb``` :   ***white Text on light_blue Background***         | ![](./colors/white---on_light_blue.png)
+| ```__y_olb``` :   ***yellow Text on light_blue Background***        | ![](./colors/yellow---on_light_blue.png)
+| ```__bk_olc``` :   ***black Text on light_cyan Background***        | ![](./colors/black---on_light_cyan.png)
+| ```__b_olc``` :   ***blue Text on light_cyan Background***          | ![](./colors/blue---on_light_cyan.png)
+| ```__c_olc``` :   ***cyan Text on light_cyan Background***          | ![](./colors/cyan---on_light_cyan.png)
+| ```__dg_olc``` :   ***dark_grey Text on light_cyan Background***    | ![](./colors/dark_grey---on_light_cyan.png)
+| ```__g_olc``` :   ***green Text on light_cyan Background***         | ![](./colors/green---on_light_cyan.png)
+| ```__lb_olc``` :   ***light_blue Text on light_cyan Background***   | ![](./colors/light_blue---on_light_cyan.png)
+| ```__lc_olc``` :   ***light_cyan Text on light_cyan Background***   | ![](./colors/light_cyan---on_light_cyan.png)
+| ```__lg_olc``` :   ***light_green Text on light_cyan Background***  | ![](./colors/light_green---on_light_cyan.png)
+| ```__lgr_olc``` :   ***light_grey Text on light_cyan Background***  | ![](./colors/light_grey---on_light_cyan.png)
+| ```__lm_olc``` :   ***light_magenta Text on light_cyan Background***| ![](./colors/light_magenta---on_light_cyan.png)
+| ```__lr_olc``` :   ***light_red Text on light_cyan Background***    | ![](./colors/light_red---on_light_cyan.png)
+| ```__ly_olc``` :   ***light_yellow Text on light_cyan Background*** | ![](./colors/light_yellow---on_light_cyan.png)
+| ```__m_olc``` :   ***magenta Text on light_cyan Background***       | ![](./colors/magenta---on_light_cyan.png)
+| ```__r_olc``` :   ***red Text on light_cyan Background***           | ![](./colors/red---on_light_cyan.png)
+| ```__w_olc``` :   ***white Text on light_cyan Background***         | ![](./colors/white---on_light_cyan.png)
+| ```__y_olc``` :   ***yellow Text on light_cyan Background***        | ![](./colors/yellow---on_light_cyan.png)
+| ```__bk_olg``` :   ***black Text on light_green Background***       | ![](./colors/black---on_light_green.png)
+| ```__b_olg``` :   ***blue Text on light_green Background***         | ![](./colors/blue---on_light_green.png)
+| ```__c_olg``` :   ***cyan Text on light_green Background***         | ![](./colors/cyan---on_light_green.png)
+| ```__dg_olg``` :   ***dark_grey Text on light_green Background***   | ![](./colors/dark_grey---on_light_green.png)
+| ```__g_olg``` :   ***green Text on light_green Background***        | ![](./colors/green---on_light_green.png)
+| ```__lb_olg``` :   ***light_blue Text on light_green Background***  | ![](./colors/light_blue---on_light_green.png)
+| ```__lc_olg``` :   ***light_cyan Text on light_green Background***  | ![](./colors/light_cyan---on_light_green.png)
+| ```__lg_olg``` :   ***light_green Text on light_green Background*** | ![](./colors/light_green---on_light_green.png)
+| ```__lgr_olg``` :   ***light_grey Text on light_green Background*** | ![](./colors/light_grey---on_light_green.png)
+| ```__lm_olg``` :   ***light_magenta Text on light_green Background***| ![](./colors/light_magenta---on_light_green.png)
+| ```__lr_olg``` :   ***light_red Text on light_green Background***   | ![](./colors/light_red---on_light_green.png)
+| ```__ly_olg``` :   ***light_yellow Text on light_green Background***| ![](./colors/light_yellow---on_light_green.png)
+| ```__m_olg``` :   ***magenta Text on light_green Background***      | ![](./colors/magenta---on_light_green.png)
+| ```__r_olg``` :   ***red Text on light_green Background***          | ![](./colors/red---on_light_green.png)
+| ```__w_olg``` :   ***white Text on light_green Background***        | ![](./colors/white---on_light_green.png)
+| ```__y_olg``` :   ***yellow Text on light_green Background***       | ![](./colors/yellow---on_light_green.png)
+| ```__bk_olgr``` :   ***black Text on light_grey Background***       | ![](./colors/black---on_light_grey.png)
+| ```__b_olgr``` :   ***blue Text on light_grey Background***         | ![](./colors/blue---on_light_grey.png)
+| ```__c_olgr``` :   ***cyan Text on light_grey Background***         | ![](./colors/cyan---on_light_grey.png)
+| ```__dg_olgr``` :   ***dark_grey Text on light_grey Background***   | ![](./colors/dark_grey---on_light_grey.png)
+| ```__g_olgr``` :   ***green Text on light_grey Background***        | ![](./colors/green---on_light_grey.png)
+| ```__lb_olgr``` :   ***light_blue Text on light_grey Background***  | ![](./colors/light_blue---on_light_grey.png)
+| ```__lc_olgr``` :   ***light_cyan Text on light_grey Background***  | ![](./colors/light_cyan---on_light_grey.png)
+| ```__lg_olgr``` :   ***light_green Text on light_grey Background*** | ![](./colors/light_green---on_light_grey.png)
+| ```__lgr_olgr``` :   ***light_grey Text on light_grey Background*** | ![](./colors/light_grey---on_light_grey.png)
+| ```__lm_olgr``` :   ***light_magenta Text on light_grey Background***| ![](./colors/light_magenta---on_light_grey.png)
+| ```__lr_olgr``` :   ***light_red Text on light_grey Background***   | ![](./colors/light_red---on_light_grey.png)
+| ```__ly_olgr``` :   ***light_yellow Text on light_grey Background***| ![](./colors/light_yellow---on_light_grey.png)
+| ```__m_olgr``` :   ***magenta Text on light_grey Background***      | ![](./colors/magenta---on_light_grey.png)
+| ```__r_olgr``` :   ***red Text on light_grey Background***          | ![](./colors/red---on_light_grey.png)
+| ```__w_olgr``` :   ***white Text on light_grey Background***        | ![](./colors/white---on_light_grey.png)
+| ```__y_olgr``` :   ***yellow Text on light_grey Background***       | ![](./colors/yellow---on_light_grey.png)
+| ```__bk_olm``` :   ***black Text on light_magenta Background***     | ![](./colors/black---on_light_magenta.png)
+| ```__b_olm``` :   ***blue Text on light_magenta Background***       | ![](./colors/blue---on_light_magenta.png)
+| ```__c_olm``` :   ***cyan Text on light_magenta Background***       | ![](./colors/cyan---on_light_magenta.png)
+| ```__dg_olm``` :   ***dark_grey Text on light_magenta Background*** | ![](./colors/dark_grey---on_light_magenta.png)
+| ```__g_olm``` :   ***green Text on light_magenta Background***      | ![](./colors/green---on_light_magenta.png)
+| ```__lb_olm``` :   ***light_blue Text on light_magenta Background***| ![](./colors/light_blue---on_light_magenta.png)
+| ```__lc_olm``` :   ***light_cyan Text on light_magenta Background***| ![](./colors/light_cyan---on_light_magenta.png)
+| ```__lg_olm``` :   ***light_green Text on light_magenta Background***| ![](./colors/light_green---on_light_magenta.png)
+| ```__lgr_olm``` :   ***light_grey Text on light_magenta Background***| ![](./colors/light_grey---on_light_magenta.png)
+| ```__lm_olm``` :   ***light_magenta Text on light_magenta Background***| ![](./colors/light_magenta---on_light_magenta.png)
+| ```__lr_olm``` :   ***light_red Text on light_magenta Background*** | ![](./colors/light_red---on_light_magenta.png)
+| ```__ly_olm``` :   ***light_yellow Text on light_magenta Background***| ![](./colors/light_yellow---on_light_magenta.png)
+| ```__m_olm``` :   ***magenta Text on light_magenta Background***    | ![](./colors/magenta---on_light_magenta.png)
+| ```__r_olm``` :   ***red Text on light_magenta Background***        | ![](./colors/red---on_light_magenta.png)
+| ```__w_olm``` :   ***white Text on light_magenta Background***      | ![](./colors/white---on_light_magenta.png)
+| ```__y_olm``` :   ***yellow Text on light_magenta Background***     | ![](./colors/yellow---on_light_magenta.png)
+| ```__bk_olr``` :   ***black Text on light_red Background***         | ![](./colors/black---on_light_red.png)
+| ```__b_olr``` :   ***blue Text on light_red Background***           | ![](./colors/blue---on_light_red.png)
+| ```__c_olr``` :   ***cyan Text on light_red Background***           | ![](./colors/cyan---on_light_red.png)
+| ```__dg_olr``` :   ***dark_grey Text on light_red Background***     | ![](./colors/dark_grey---on_light_red.png)
+| ```__g_olr``` :   ***green Text on light_red Background***          | ![](./colors/green---on_light_red.png)
+| ```__lb_olr``` :   ***light_blue Text on light_red Background***    | ![](./colors/light_blue---on_light_red.png)
+| ```__lc_olr``` :   ***light_cyan Text on light_red Background***    | ![](./colors/light_cyan---on_light_red.png)
+| ```__lg_olr``` :   ***light_green Text on light_red Background***   | ![](./colors/light_green---on_light_red.png)
+| ```__lgr_olr``` :   ***light_grey Text on light_red Background***   | ![](./colors/light_grey---on_light_red.png)
+| ```__lm_olr``` :   ***light_magenta Text on light_red Background*** | ![](./colors/light_magenta---on_light_red.png)
+| ```__lr_olr``` :   ***light_red Text on light_red Background***     | ![](./colors/light_red---on_light_red.png)
+| ```__ly_olr``` :   ***light_yellow Text on light_red Background***  | ![](./colors/light_yellow---on_light_red.png)
+| ```__m_olr``` :   ***magenta Text on light_red Background***        | ![](./colors/magenta---on_light_red.png)
+| ```__r_olr``` :   ***red Text on light_red Background***            | ![](./colors/red---on_light_red.png)
+| ```__w_olr``` :   ***white Text on light_red Background***          | ![](./colors/white---on_light_red.png)
+| ```__y_olr``` :   ***yellow Text on light_red Background***         | ![](./colors/yellow---on_light_red.png)
+| ```__bk_oly``` :   ***black Text on light_yellow Background***      | ![](./colors/black---on_light_yellow.png)
+| ```__b_oly``` :   ***blue Text on light_yellow Background***        | ![](./colors/blue---on_light_yellow.png)
+| ```__c_oly``` :   ***cyan Text on light_yellow Background***        | ![](./colors/cyan---on_light_yellow.png)
+| ```__dg_oly``` :   ***dark_grey Text on light_yellow Background***  | ![](./colors/dark_grey---on_light_yellow.png)
+| ```__g_oly``` :   ***green Text on light_yellow Background***       | ![](./colors/green---on_light_yellow.png)
+| ```__lb_oly``` :   ***light_blue Text on light_yellow Background*** | ![](./colors/light_blue---on_light_yellow.png)
+| ```__lc_oly``` :   ***light_cyan Text on light_yellow Background*** | ![](./colors/light_cyan---on_light_yellow.png)
+| ```__lg_oly``` :   ***light_green Text on light_yellow Background***| ![](./colors/light_green---on_light_yellow.png)
+| ```__lgr_oly``` :   ***light_grey Text on light_yellow Background***| ![](./colors/light_grey---on_light_yellow.png)
+| ```__lm_oly``` :   ***light_magenta Text on light_yellow Background***| ![](./colors/light_magenta---on_light_yellow.png)
+| ```__lr_oly``` :   ***light_red Text on light_yellow Background***  | ![](./colors/light_red---on_light_yellow.png)
+| ```__ly_oly``` :   ***light_yellow Text on light_yellow Background***| ![](./colors/light_yellow---on_light_yellow.png)
+| ```__m_oly``` :   ***magenta Text on light_yellow Background***     | ![](./colors/magenta---on_light_yellow.png)
+| ```__r_oly``` :   ***red Text on light_yellow Background***         | ![](./colors/red---on_light_yellow.png)
+| ```__w_oly``` :   ***white Text on light_yellow Background***       | ![](./colors/white---on_light_yellow.png)
+| ```__y_oly``` :   ***yellow Text on light_yellow Background***      | ![](./colors/yellow---on_light_yellow.png)
+| ```__bk_om``` :   ***black Text on magenta Background***            | ![](./colors/black---on_magenta.png)
+| ```__b_om``` :   ***blue Text on magenta Background***              | ![](./colors/blue---on_magenta.png)
+| ```__c_om``` :   ***cyan Text on magenta Background***              | ![](./colors/cyan---on_magenta.png)
+| ```__dg_om``` :   ***dark_grey Text on magenta Background***        | ![](./colors/dark_grey---on_magenta.png)
+| ```__g_om``` :   ***green Text on magenta Background***             | ![](./colors/green---on_magenta.png)
+| ```__lb_om``` :   ***light_blue Text on magenta Background***       | ![](./colors/light_blue---on_magenta.png)
+| ```__lc_om``` :   ***light_cyan Text on magenta Background***       | ![](./colors/light_cyan---on_magenta.png)
+| ```__lg_om``` :   ***light_green Text on magenta Background***      | ![](./colors/light_green---on_magenta.png)
+| ```__lgr_om``` :   ***light_grey Text on magenta Background***      | ![](./colors/light_grey---on_magenta.png)
+| ```__lm_om``` :   ***light_magenta Text on magenta Background***    | ![](./colors/light_magenta---on_magenta.png)
+| ```__lr_om``` :   ***light_red Text on magenta Background***        | ![](./colors/light_red---on_magenta.png)
+| ```__ly_om``` :   ***light_yellow Text on magenta Background***     | ![](./colors/light_yellow---on_magenta.png)
+| ```__m_om``` :   ***magenta Text on magenta Background***           | ![](./colors/magenta---on_magenta.png)
+| ```__r_om``` :   ***red Text on magenta Background***               | ![](./colors/red---on_magenta.png)
+| ```__w_om``` :   ***white Text on magenta Background***             | ![](./colors/white---on_magenta.png)
+| ```__y_om``` :   ***yellow Text on magenta Background***            | ![](./colors/yellow---on_magenta.png)
+| ```__bk_or``` :   ***black Text on red Background***                | ![](./colors/black---on_red.png)
+| ```__b_or``` :   ***blue Text on red Background***                  | ![](./colors/blue---on_red.png)
+| ```__c_or``` :   ***cyan Text on red Background***                  | ![](./colors/cyan---on_red.png)
+| ```__dg_or``` :   ***dark_grey Text on red Background***            | ![](./colors/dark_grey---on_red.png)
+| ```__g_or``` :   ***green Text on red Background***                 | ![](./colors/green---on_red.png)
+| ```__lb_or``` :   ***light_blue Text on red Background***           | ![](./colors/light_blue---on_red.png)
+| ```__lc_or``` :   ***light_cyan Text on red Background***           | ![](./colors/light_cyan---on_red.png)
+| ```__lg_or``` :   ***light_green Text on red Background***          | ![](./colors/light_green---on_red.png)
+| ```__lgr_or``` :   ***light_grey Text on red Background***          | ![](./colors/light_grey---on_red.png)
+| ```__lm_or``` :   ***light_magenta Text on red Background***        | ![](./colors/light_magenta---on_red.png)
+| ```__lr_or``` :   ***light_red Text on red Background***            | ![](./colors/light_red---on_red.png)
+| ```__ly_or``` :   ***light_yellow Text on red Background***         | ![](./colors/light_yellow---on_red.png)
+| ```__m_or``` :   ***magenta Text on red Background***               | ![](./colors/magenta---on_red.png)
+| ```__r_or``` :   ***red Text on red Background***                   | ![](./colors/red---on_red.png)
+| ```__w_or``` :   ***white Text on red Background***                 | ![](./colors/white---on_red.png)
+| ```__y_or``` :   ***yellow Text on red Background***                | ![](./colors/yellow---on_red.png)
+| ```__bk_ow``` :   ***black Text on white Background***              | ![](./colors/black---on_white.png)
+| ```__b_ow``` :   ***blue Text on white Background***                | ![](./colors/blue---on_white.png)
+| ```__c_ow``` :   ***cyan Text on white Background***                | ![](./colors/cyan---on_white.png)
+| ```__dg_ow``` :   ***dark_grey Text on white Background***          | ![](./colors/dark_grey---on_white.png)
+| ```__g_ow``` :   ***green Text on white Background***               | ![](./colors/green---on_white.png)
+| ```__lb_ow``` :   ***light_blue Text on white Background***         | ![](./colors/light_blue---on_white.png)
+| ```__lc_ow``` :   ***light_cyan Text on white Background***         | ![](./colors/light_cyan---on_white.png)
+| ```__lg_ow``` :   ***light_green Text on white Background***        | ![](./colors/light_green---on_white.png)
+| ```__lgr_ow``` :   ***light_grey Text on white Background***        | ![](./colors/light_grey---on_white.png)
+| ```__lm_ow``` :   ***light_magenta Text on white Background***      | ![](./colors/light_magenta---on_white.png)
+| ```__lr_ow``` :   ***light_red Text on white Background***          | ![](./colors/light_red---on_white.png)
+| ```__ly_ow``` :   ***light_yellow Text on white Background***       | ![](./colors/light_yellow---on_white.png)
+| ```__m_ow``` :   ***magenta Text on white Background***             | ![](./colors/magenta---on_white.png)
+| ```__r_ow``` :   ***red Text on white Background***                 | ![](./colors/red---on_white.png)
+| ```__w_ow``` :   ***white Text on white Background***               | ![](./colors/white---on_white.png)
+| ```__y_ow``` :   ***yellow Text on white Background***              | ![](./colors/yellow---on_white.png)
+| ```__bk_oy``` :   ***black Text on yellow Background***             | ![](./colors/black---on_yellow.png)
+| ```__b_oy``` :   ***blue Text on yellow Background***               | ![](./colors/blue---on_yellow.png)
+| ```__c_oy``` :   ***cyan Text on yellow Background***               | ![](./colors/cyan---on_yellow.png)
+| ```__dg_oy``` :   ***dark_grey Text on yellow Background***         | ![](./colors/dark_grey---on_yellow.png)
+| ```__g_oy``` :   ***green Text on yellow Background***              | ![](./colors/green---on_yellow.png)
+| ```__lb_oy``` :   ***light_blue Text on yellow Background***        | ![](./colors/light_blue---on_yellow.png)
+| ```__lc_oy``` :   ***light_cyan Text on yellow Background***        | ![](./colors/light_cyan---on_yellow.png)
+| ```__lg_oy``` :   ***light_green Text on yellow Background***       | ![](./colors/light_green---on_yellow.png)
+| ```__lgr_oy``` :   ***light_grey Text on yellow Background***       | ![](./colors/light_grey---on_yellow.png)
+| ```__lm_oy``` :   ***light_magenta Text on yellow Background***     | ![](./colors/light_magenta---on_yellow.png)
+| ```__lr_oy``` :   ***light_red Text on yellow Background***         | ![](./colors/light_red---on_yellow.png)
+| ```__ly_oy``` :   ***light_yellow Text on yellow Background***      | ![](./colors/light_yellow---on_yellow.png)
+| ```__m_oy``` :   ***magenta Text on yellow Background***            | ![](./colors/magenta---on_yellow.png)
+| ```__r_oy``` :   ***red Text on yellow Background***                | ![](./colors/red---on_yellow.png)
+| ```__w_oy``` :   ***white Text on yellow Background***              | ![](./colors/white---on_yellow.png)
+| ```__y_oy``` :   ***yellow Text on yellow Background***             | ![](./colors/yellow---on_yellow.png)

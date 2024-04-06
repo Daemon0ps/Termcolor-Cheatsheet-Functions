@@ -8,6 +8,8 @@ All printing is done with `(,end='')` so `chr(10)` mult be appended or prepended
       This is what I used to parse the former `tc_lambda_old.py` module that I was using for shorthand Termcolor functions.
 3.  **tc_lambda_old.py**
       The old functions/lambdas
+4.  **ttc_github_readme_constructors.py**
+      Script to capture the color/font images, and format the table below.
     
 https://github.com/termcolor/termcolor
 

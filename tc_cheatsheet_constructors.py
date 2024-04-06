@@ -198,14 +198,14 @@ for _ in no_on_list:
     d1 = f"{__}@staticmethod{chr(10)}"
     d2 = f"{__}def {_[0]}(s:object)->str:{__}"
     d3 = f"# {chr(32).join(w.lower() if w in _SW else str(w).capitalize() for w in str(_[1]).split(chr(95)))}{chr(10)}"
-    d4 = f"{__}{__}return cprint(str(s),{chr(39)}{_[1]}{chr(39)}){chr(10)}"
+    d4 = f"{__}{__}return cprint(str(s),{chr(39)}{_[1]}{chr(39)},end={chr(39)}{chr(39)}){chr(10)}"
     deflist.append([d1, d2, d3, d4])
 
 for _ in on_list:
     d1 = f"{__}@staticmethod{chr(10)}"
     d2 = f"{__}def {_[0]}(s:object)->str:{__}"
     d3 = f"# {chr(32).join(w.lower() if w in _SW else str(w).capitalize() for w in str(_[1]).split(chr(95)))} {chr(32).join(w.lower() if w in _SW else str(w).capitalize() for w in str(_[2]).split(chr(95)))}{chr(10)}"
-    d4 = f"{__}{__}return cprint(str(s),{chr(39)}{_[1]}{chr(39)},{chr(39)}{_[2]}{chr(39)}){chr(10)}"
+    d4 = f"{__}{__}return cprint(str(s),{chr(39)}{_[1]}{chr(39)},{chr(39)}{_[2]}{chr(39)},end={chr(39)}{chr(39)}){chr(10)}"
     deflist.append([d1, d2, d3, d4])
 
 d_maxlist: list[int] = []
@@ -217,6 +217,10 @@ len(list(map(lambda x: d_maxlist.append(len(x[3])), [x for x in deflist])))
 d_max = sorted(d_maxlist[::1], key=lambda x: x, reverse=True)[0]
 
 for _d in deflist:
+    if str(_d[1]).find('_bklf') != -1:
+        _d[1] = _d[1].replace('s:object','')
+        _d[2] = str(f'# Black on Black + LF [chr(10)]{chr(10)}')
+        _d[3] = f"{__}{__}return cprint(str(f{chr(39)}{chr(123)}chr(10){chr(125)}{chr(39)}),{chr(39)}black{chr(39)},{chr(39)}on_black{chr(39)},end={chr(39)}{chr(39)}){chr(10)}"
     while len(_d[1]) != d_max:
         _d[1] = _d[1] + chr(32)
     tcs._add_tc_lambda(f"{_d[0]}{_d[1]}{_d[2]}{_d[3]}")
